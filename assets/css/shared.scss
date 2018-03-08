@@ -1,0 +1,237 @@
+$light-blue: rgb(140,191,242);
+$blue-grayish: rgb(152,172,205);
+$dark-blue: rgb(77,107,157);
+$light-gray: rgb(200,200,255);
+@font-face { 
+	font-family: 'Great Vibes';
+	src: url('../fonts/GreatVibes-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Marta';
+	src: url('../fonts/marta.regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
+}
+html {
+  font-size: 100%;
+}
+body {
+	margin-top: 30px !important;
+	background-image: url("../imgs/background.png");
+	background-repeat: repeat;
+}
+.logo-name {
+	font-family: "Great Vibes", serif;
+	font-size: 96px;
+	font-size: 7.6vw;//96px;
+	color: $light-blue;
+}
+.logo-first-line {
+	margin-left: 70px !important;
+}
+.logo-small-text {
+	font-family: "Marta";
+	margin: -40px 0 0px -6px;
+	font-size: 14px;
+	font-size: 1.1vw;
+	color: $dark-blue;
+	// color: $light-gray;
+}
+.logo1 {
+	margin-left: 170px !important;
+}
+.logo2 {
+	margin-left: 12px !important;
+}
+.pale {
+	color: $light-blue;
+}
+.wide {
+	letter-spacing: 2px;
+}
+.logo-second-line {
+	margin-left: 290px !important;
+	margin-top: -64px !important;
+}
+// .nav-bar {
+// 	margin-left: -80px;
+// }
+.nav-bar a {
+  padding: 5px  25px 5px 0px;
+  /*border: 1px solid black;*/
+}
+ul.nav-bar {
+	list-style-type: none;
+	margin-top: 92px;
+	margin-left: 60px;
+}
+li {
+	font-family: "Montserrat";
+	font-size: 12px;
+	display: inline;
+	padding: 10px;
+	color: $blue-grayish;
+}
+hr {
+	border: 1px solid $light-gray !important;
+	max-width: 80%;
+}
+.narrow {
+	margin-left: 120px !important;
+	margin-right: 120px !important;
+}
+.col-md-4 {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.img-small-square {
+	min-height: 250px !important;
+
+}
+a {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 12px !important;
+  text-decoration: none;
+  transition: color .4s; }
+// a:link {
+//   color: #3d2405; 
+//   font-weight: bold;
+//   text-shadow: 0 0 1px #7cbeff;
+// }
+
+a:visited {
+  color: $dark-blue; 
+}
+
+a:hover {
+	// font-size: 12px !important;
+	color: $light-blue;
+}
+#h3_subtitle {
+	margin-left: 300px;
+}
+.great_letter {
+	font-size: 36px;
+	font-size: 3.6rem;
+	font-family: 'Lora', serif;
+}
+// p {
+//   font-size: 16px;
+//   font-size: 1.6rem;
+//   line-height: 1.6;
+//   font-family: 'Lora', serif; 
+// }
+  
+h1, h2, h3, h4, .message, .info, .warning {
+  font-family: 'Oswald', sans-serif; }
+
+.error {
+	color: #c60d0d;
+	font-weight: bold;
+	font-size: 16px;
+}
+.success {
+	color: #47c21b;
+	font-weight: bold;
+	font-size: 16px;
+	/*text-shadow: 0px 0px 1px #d64141;*/
+}
+ h1 {
+  font-size: 48px;
+  font-size: 4.8rem;
+  font-weight: 400; }
+
+h2 {
+  font-size: 36px;
+  font-size: 3.6rem; }
+
+h3 {
+  font-size: 28px;
+  font-size: 2.8rem; }
+
+.main_header {
+	padding: 20px 0 30px 0;
+}
+footer {
+  background-color: #000; 
+  height: 180px;}
+
+footer p {
+  color: white;
+  box-sizing: border-box;
+  font-size: 1.275rem;
+  padding: 10px 0 0 30px;}
+.wrapper {
+	background-image: url("../imgs/old_paper_small_red.png");
+	background-repeat: no-repeat;
+
+}
+#save {
+	margin-left: 150px;
+}
+input {
+ padding: 3px;
+} 
+input[type="submit"] {
+	font-weight: bold;
+	margin-left: 180px;
+}
+input[type="color"] {
+	border: 1px solid #e8f6ff;
+	width: 32px;
+	height: 32px;
+	border: none;
+	margin-left: 5px;
+	padding: 0px 0px;
+}
+th {
+  font-size: 16px;
+  text-shadow: 1px 1px 1px #808080; }
+
+td {
+  width: 100px; }
+.heroes_table th:first-child {
+	width: 180px;
+}
+.heroes_table th {
+	background-color: #508be4;
+	padding: 5px 5px !important;
+}
+.heroes_table tr {
+	background-color: #b3cffa;
+}
+.heroes_table tr:nth-child(even) {
+	background-color: #77a0e0;
+
+}
+.heroes_table td {
+	padding: 5px 5px !important;
+}
+.content {
+	width: 20%;
+	margin: 2% 35% 5% 35%;
+}
+.content_view {
+	width: 55%;
+	margin: 0 15% 5% 15%;
+}
+.numb {
+	margin: 0 0 0 50px;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+input[type=range] {
+	margin: 22px 0 0 0;
+	padding-right: 10px;
+}
+#hide_effects {
+	margin-left: 20px;
+}
+
+input:focus, textarea:focus {
+	background-color: #e6eff7;
+	border-color: blue;
+}

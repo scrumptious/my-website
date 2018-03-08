@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><?=$title;?></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
+	<link rel="stylesheet" href="<?=assets_url();?>css/_tabs.css">
+	<link rel="stylesheet" href="<?=assets_url();?>css/shared.css">
+	<link rel="stylesheet" href="<?=assets_url();?>css/bootstrap/_bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+
+</head>
+<body>
+<div class="fuid-container">
+	<div class="row nav_row">
+		<div class="col col-md-offset-3">
+			<nav class="nav_bar">
+				<a href="<?=base_url();?>index.php">Home</a>
+				<a href="<?=base_url();?>author">Author</a>
+				<a href="<?=base_url();?>shapes">Shapes Generator</a>
+				<a href="<?=base_url();?>heroes">Heroes Vault</a>
+				<a href="<?=base_url();?>contact">Get in touch</a>
+			</nav>
+		</div>
+	</div>	<!-- end of nav_row -->
+
+	<div class="row">
+		<div class="col-md-12">
+			<header class="main_header">
+				<h1><?=$title;?></h1>
+			</header>
+		</div>
+
+<!-- ============================================================= -->
+
+		<div class="col col-md-5">
+			<aside class="flex-item"><p class="text-justify">(1) Aside, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</aside>
+		</div>
+		<div class="col col-md-5 col-md-offset-2">
+			<article class="flex-item"><p class="text-justify">(2) Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			</p>
+			</article>
+		</div>
+	</div><!--end of row-->
+
+
+	<div class="row">
+		<div class="col col-md-5">
+			<article>
+				<p class="text-justify">(3) Article, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			</article>
+		</div>
+		<div class="col col-md-5 col-md-offset-2">
+			<section><ul>
+				<li>(5)
+				<li class="highlight"> Computer one
+				<li> Second computer
+				<li> Thirt one
+				<li> Last Computer
+			</ul></section>
+		</div>
+	</div><!--end of row-->
+
+
+	<br><br><br>
+
+
+
+	<!-- ============================================================= -->
+
+	<footer>
+	<p>2017 ©Copyright Ludwik Jasiurski</p>
+	</footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+[type='range'] {
+  -webkit-appearance: none;
+  margin: 7.5px 0;
+  width: 100%; }
+  [type='range']:focus {
+    outline: 0; }
+    [type='range']:focus::-webkit-slider-runnable-track {
+      background: #71c6ff; }
+    [type='range']:focus::-ms-fill-lower {
+      background: #57bcff; }
+    [type='range']:focus::-ms-fill-upper {
+      background: #71c6ff; }
+  [type='range']::-webkit-slider-runnable-track {
+    cursor: pointer;
+    height: 5px;
+    transition: all .2s ease;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+    background: #57bcff;
+    border: 2px solid #e8f6ff;
+    border-radius: 5px; }
+  [type='range']::-webkit-slider-thumb {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+    background: #0061ab;
+    border: 2px solid #eceff1;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 15px;
+    width: 6px;
+    -webkit-appearance: none;
+    margin-top: -7px; }
+  [type='range']::-moz-range-track {
+    cursor: pointer;
+    height: 5px;
+    transition: all .2s ease;
+    width: 100%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+    background: #57bcff;
+    border: 2px solid #e8f6ff;
+    border-radius: 5px; }
+  [type='range']::-moz-range-thumb {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+    background: #0061ab;
+    border: 2px solid #eceff1;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 15px;
+    width: 6px; }
+  [type='range']::-ms-track {
+    cursor: pointer;
+    height: 5px;
+    transition: all .2s ease;
+    width: 100%;
+    background: transparent;
+    border-color: transparent;
+    border-width: 7.5px 0;
+    color: transparent; }
+  [type='range']::-ms-fill-lower {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+    background: #3eb2ff;
+    border: 2px solid #e8f6ff;
+    border-radius: 10px; }
+  [type='range']::-ms-fill-upper {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+    background: #57bcff;
+    border: 2px solid #e8f6ff;
+    border-radius: 10px; }
+  [type='range']::-ms-thumb {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
+    background: #0061ab;
+    border: 2px solid #eceff1;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 15px;
+    width: 6px;
+    margin-top: 0; }
+
+/*# sourceMappingURL=_inputrange.css.map */

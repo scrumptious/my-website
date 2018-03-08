@@ -1,0 +1,44 @@
+.error {
+	color: #f33;
+}
+table {
+	background-color: #bbbbbb;
+	padding: 8px;
+	font: 18px Georgia, serif;
+	margin: 0 400px 0 200px;
+}
+/*tr {
+	background-color: #dddddd;
+}*/
+th {
+	color: black;
+	background-color: #eee;
+}
+td > a {
+	text-decoration: none;
+	color: #f9ff49;
+}
+td > a:hover {
+	color: black;
+	font-weight: 600;
+}
+td {
+	padding: 5px;
+}
+tr {
+	color: white;
+	background-color: #265edc;
+}
+td:first-child {
+	width: 140px;
+}
+tr:hover {
+	background-color: #4b7ff2;
+}
+tr:nth-child(even) {
+	color: white;
+	background-color: #1f469f;
+}
+tr:nth-child(even):hover {
+	background-color: #4b7ff2;
+}

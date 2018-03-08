@@ -1,0 +1,97 @@
+#wrap_tabs {
+  margin: 40px 0 40px 200px; }
+
+#panes {
+  background-color: #3b94de;
+  width: 696px;
+  padding: 0;
+  margin: 0px;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-image: url("../imgs/border2.png") 20% round; }
+
+#panes div {
+  width: 695px;
+  height: 440px;
+  margin: 20px 40px;
+  padding: 0 90px 0 0;
+  text-align: justify;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold; }
+
+#panes p, input, select, a, option {
+  color: #000; }
+
+#tabs {
+  height: 29px !important;
+  width: 696px;
+  margin: 0 !important;
+  padding: 0; }
+
+#tabs li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none; }
+
+/* a- tag inside single tab */
+#tabs li a {
+  background: url("../imgs/tabs_blue3.png") no-repeat;
+  display: block;
+  text-shadow: none;
+  height: 29px;
+  width: 174px;
+  padding: 0;
+  margin: 0;
+  /* font */
+  color: black;
+  text-align: center;
+  line-height: 33px; }
+
+#tabs li a:hover {
+  text-shadow: none; }
+
+#tabs #t1 {
+  background-position: -247px -62px;
+  transition: all .1s; }
+
+#tabs #t2 {
+  background-position: -247px -62px;
+  transition: all .1s; }
+
+#tabs #t3 {
+  background-position: -247px -62px;
+  transition: all .1s; }
+
+#tabs #t4 {
+  background-position: -247px -62px;
+  transition: all .1s; }
+
+#tabs #t1:hover {
+  background-position: -247px -31px; }
+
+#tabs #t2:hover {
+  background-position: -247px -31px; }
+
+#tabs #t3:hover {
+  background-position: -247px -31px; }
+
+#tabs #t4:hover {
+  background-position: -247px -31px; }
+
+#tabs #t1.current {
+  background-position: -247px 0px; }
+
+#tabs #t2.current {
+  background-position: -247px 0px; }
+
+#tabs #t3.current {
+  background-position: -247px 0px; }
+
+#tabs #t4.current {
+  background-position: -247px 0px; }
+
+/*# sourceMappingURL=_tabs.css.map */

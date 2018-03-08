@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fff; }
+
+#save {
+  font-weight: bold; }
+
+#form {
+  border: none;
+  border: 2px outset #023582; 
+  top: 80px;
+}
+
+#cnvLines, #cnvTriangles, #cnvSquares, #cnvCircles, #cnvHexagons {
+  padding-right: 20px;
+  position: absolute;
+  left: 80px;
+  top: 80px;
+}
+
+#cnvLines {
+  z-index: 5;
+  border: 7px outset #0a4caf; }
+
+#cnvTriangles {
+  z-index: 4; }
+
+#cnvSquares {
+  z-index: 3; }
+
+#cnvCircles {
+  z-index: 2; }
+
+#cnvHexagons {
+  z-index: 1; }
+
+#cnvImage {
+  display: none; }
+
+#myImg {
+  display: none; }
+
+#openWindow {
+  position: absolute;
+  right: 0;
+  top: 500; }
+
+.info {
+  position: absolute;
+  right: 40px;
+  top: 340px;
+  width: 540px; }
+
+th {
+  width: 100px; }
+
+td {
+  padding-left: 20px;
+  width: 20px; }
+
+input[type="number"] {
+  width: 50px; }
+
+div.asideContainer {
+  padding: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 45%;
+  border: 1px black solid;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: space-around;
+  align-content: space-around; }
+
+/*# sourceMappingURL=style.css.map */

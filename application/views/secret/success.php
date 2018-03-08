@@ -1,0 +1,1 @@
+<h3 style="color: #33FF33">Success!	Your secret has been added.</h3>
