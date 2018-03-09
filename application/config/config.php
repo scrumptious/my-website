@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $my_root = 'http://'.$_SERVER['HTTP_HOST'];
 // $my_root .= $_SERVER['SCRIPT_NAME'];
 // $config['base_url'] = $my_root;
-$config['base_url'] = 'http://localhost:8080/igniter/';//'http://jasiurski.cba.pl';
+$config['base_url'] = 'http://localhost:8080/my-website/';//'http://jasiurski.cba.pl';
 
 /*
 |--------------------------------------------------------------------------
