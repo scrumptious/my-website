@@ -1,1 +1,0 @@
-<p>2017&copy;Jasiurski</p>

@@ -5,6 +5,8 @@ class Main extends CI_Controller {
 
 	public function index()	{
 		$data['title'] = "How to make things work";
+		$data['logo_line_1'] = "Ludwik";
+		$data['logo_line_2'] = "Jasiurski";
 		$this->load->view('templates/mywebsite_header', $data);
 		$this->load->view('main/index');
 		$this->load->view('templates/mywebsite_footer');

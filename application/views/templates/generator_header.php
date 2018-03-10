@@ -14,24 +14,20 @@
 	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
 </head>
-<body ng-app="generatorApp" ng-controller="drawCtrl as draw">
-<script src="<?=assets_url();?>js/app.js"></script>
-<div class="container">
-	<div class="row nav_row">
-		<div class="col col-md-offset-3">
-			<nav class="nav_bar">
-				<a href="index.php">Home</a>
-				<a href="author">Author</a>
-				<a href="shapes">Shapes Generator</a>
-				<!-- <a href="heroes">Heroes Vault</a> -->
-				<a href="contact">Get in touch</a>
-			</nav>
+
+<body>
+<div class="container-fluid">
+	<div class="row">	<!-- row1 and logo div -->
+		<div class="col-md-6 col-sm-10">
+			<h1 class="logo-first-line logo-name"><?=$logo_line_1;?></h1><br>
+			<h1 class="logo-second-line logo-name"><?=$logo_line_2;?></h1>
 		</div>
-	</div>		<br>
-	<div class="row">
-		<div class="col col-md-6 col-md-offset-4">
-			<header class="main_header">
-				<h1><?=$title;?></h1>
-			</header>
+		<div class="col-md-5 col-sm-10">
+			<ul class="nav-bar">
+				<li><a href="shapes">WORK</a></li>
+				<li><a href="author">ABOUT</a></li>
+				<li><a href="contact">CONTACT</a></li>
+				<li><a href="main">HOME</a></li>
+			</ul>
 		</div>
-<!-- div.row is open! -->
+	</div>

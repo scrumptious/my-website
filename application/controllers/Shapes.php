@@ -5,6 +5,8 @@ class Shapes extends CI_Controller {
 
 	public function index()	{
 		$data['title'] = "Shapes Generator";
+		$data['logo-line-1'] = "Shapes";
+		$data['logo-line-2'] = "Generator";
 		$this->load->view('templates/generator_header', $data);
 		$this->load->view('shapes/index');
 		$this->load->view('templates/mywebsite_footer');
@@ -12,5 +14,5 @@ class Shapes extends CI_Controller {
 
 }
 
-/* End of file Generator.php */
+/* End of file Shapes.php */
 /* Location: ./application/controllers/Generator.php */

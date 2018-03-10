@@ -1,1 +1,0 @@
-<h3>News <strong style="color: #33FF33">successfully</strong> added!</h3>

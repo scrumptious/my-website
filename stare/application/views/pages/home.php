@@ -1,1 +1,0 @@
-<p>Welcome to my first web page created using CodeIgniter framework!</p>
