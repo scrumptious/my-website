@@ -12,6 +12,8 @@ class Contact extends CI_Controller {
 
 	public function index()	{
 		$data['title'] = "Get in touch";
+		$data['logo_line_1'] = "Get in";
+		$data['logo_line_2'] = "touch";	
 
 		$this->form_validation->set_rules('name', 'Name', 'required|min_length[3]|max_length[30]');
 		$this->form_validation->set_rules('email', 'E-mail', 'required|min_length[3]|max_length[30]');

@@ -1,5 +1,8 @@
-<footer>
-<p>2017 ©Copyright Ludwik Jasiurski</p>
-</footer>
+	<div class="row">
+		<footer>
+		<p>2018 ©Copyright Ludwik Jasiurski</p>
+		</footer>
+	</div>
+</div>
 </body>
 </html>

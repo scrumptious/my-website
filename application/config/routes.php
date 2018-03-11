@@ -61,7 +61,7 @@ $route['heroes/delete_conf/(:any)'] = 'heroes/delete_conf/$1';
 $route['heroes/(:any)'] = 'heroes/index/$1';
 $route['heroes/view/(:any)'] = 'heroes/index/$1';
 
-$route['shapes'] = 'shapes';
+$route['shapes'] = 'index.php/shapes';
 $route['contact'] = 'contact';
 $route['contact/sent'] = 'contact/sent';
 $route['author'] = 'author';

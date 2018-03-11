@@ -14,6 +14,20 @@ $light-gray: rgb(200,200,255);
 	font-family: 'Montserrat';
 	src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
 }
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+	.logo-small-text {
+		margin: -40px 0 0 -6vw;
+	}
+	ul.nav-bar {
+		margin-top: 0;
+	}
+}
+@media (min-width: 768px) { 
+	ul.nav-bar {
+		margin-top: 9vw;
+	}
+}
 html {
   font-size: 100%;
 }
@@ -29,21 +43,15 @@ body {
 	color: $light-blue;
 }
 .logo-first-line {
-	margin-left: 70px !important;
+	margin-left: -3vw !important;
 }
 .logo-small-text {
 	font-family: "Marta";
-	margin: -40px 0 0px -6px;
+	margin: -40px 0 0 4vw;
 	font-size: 14px;
 	font-size: 1.1vw;
 	color: $dark-blue;
 	// color: $light-gray;
-}
-.logo1 {
-	margin-left: 170px !important;
-}
-.logo2 {
-	margin-left: 12px !important;
 }
 .pale {
 	color: $light-blue;
@@ -52,26 +60,22 @@ body {
 	letter-spacing: 2px;
 }
 .logo-second-line {
-	margin-left: 290px !important;
-	margin-top: -64px !important;
+	margin-left: 28vw !important;
+	margin-top: -4vw !important;
 }
-// .nav-bar {
-// 	margin-left: -80px;
-// }
 .nav-bar a {
-  padding: 5px  25px 5px 0px;
-  /*border: 1px solid black;*/
+  padding: 0  25px 0 0;
+  color: $dark-blue;
 }
 ul.nav-bar {
 	list-style-type: none;
-	margin-top: 92px;
-	margin-left: 60px;
+	// margin-top: 8vw;
+	 // margin-right: 60px;
 }
 li {
 	font-family: "Montserrat";
 	font-size: 12px;
 	display: inline;
-	padding: 10px;
 	color: $blue-grayish;
 }
 hr {
@@ -79,8 +83,12 @@ hr {
 	max-width: 80%;
 }
 .narrow {
-	margin-left: 120px !important;
-	margin-right: 120px !important;
+	margin-left: 8vw !important;
+	margin-right: 10vw !important;
+}
+.high {
+	margin-top: 5vw !important;
+	margin-bottom: 5vw !important;
 }
 .col-md-4 {
 	padding-left: 15px !important;
@@ -93,21 +101,16 @@ hr {
 a {
   font-family: "Montserrat", sans-serif !important;
   font-size: 12px !important;
-  text-decoration: none;
   transition: color .4s; }
 // a:link {
 //   color: #3d2405; 
 //   font-weight: bold;
 //   text-shadow: 0 0 1px #7cbeff;
 // }
-
-a:visited {
-  color: $dark-blue; 
-}
-
 a:hover {
 	// font-size: 12px !important;
-	color: $light-blue;
+	color: $light-blue !important;
+  text-decoration: none !important;
 }
 #h3_subtitle {
 	margin-left: 300px;
@@ -156,12 +159,15 @@ h3 {
 }
 footer {
   background-color: #000; 
+  padding-left: -15px !important;
+  padding-right: -15px !important;
+  width: 100%;
   height: 180px;}
 
 footer p {
   color: white;
   box-sizing: border-box;
-  font-size: 1.275rem;
+  font-size: 1.1vw;
   padding: 10px 0 0 30px;}
 .wrapper {
 	background-image: url("../imgs/old_paper_small_red.png");

@@ -23,10 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$my_root = 'http://'.$_SERVER['HTTP_HOST'];
-$my_root .= $_SERVER['SCRIPT_NAME'] .'/../' ;
-$config['base_url'] = $my_root;
-// $config['base_url'] = 'http://localhost:8080/my-website';
+// $my_root = 'http://'.$_SERVER['HTTP_HOST'];
+// $config['base_url'] = $my_root;
+$config['base_url'] = 'http://localhost:8080/my-website';
 //'http://jasiurski.cba.pl';
 
 /*
