@@ -1,3 +1,4 @@
+			<div class="row"><hr></div>
 			<div class="col col-md-6 col-md-offset-3">
 				<?=form_open(base_url().'contact');?>
 				<fieldset>

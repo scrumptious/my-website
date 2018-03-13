@@ -8,14 +8,37 @@
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-SemiBold.ttf") format("woff"); }
 @media (max-width: 767.98px) {
+  .logo-name {
+    font-size: 12vw !important; }
+
+  .logo-first-line {
+    margin-left: 0vw !important; }
+
+  .logo-second-line {
+    margin-left: 25vw !important; }
+
   .logo-small-text {
     margin: -40px 0 0 -6vw; }
 
   ul.nav-bar {
     margin-top: 0; } }
 @media (min-width: 768px) {
+  .logo-name {
+    font-size: 96px;
+    font-size: 7.6vw; }
+
+  .logo-first-line {
+    margin-left: -3vw !important; }
+
+  .logo-second-line {
+    margin-left: 28vw !important;
+    margin-top: -4vw !important; }
+
   ul.nav-bar {
     margin-top: 9vw; } }
+.bordered {
+  border: 1px solid black; }
+
 html {
   font-size: 100%; }
 
@@ -26,12 +49,7 @@ body {
 
 .logo-name {
   font-family: "Great Vibes", serif;
-  font-size: 96px;
-  font-size: 7.6vw;
   color: #8cbff2; }
-
-.logo-first-line {
-  margin-left: -3vw !important; }
 
 .logo-small-text {
   font-family: "Marta";
@@ -40,15 +58,8 @@ body {
   font-size: 1.1vw;
   color: #4d6b9d; }
 
-.pale {
-  color: #8cbff2; }
-
 .wide {
   letter-spacing: 2px; }
-
-.logo-second-line {
-  margin-left: 28vw !important;
-  margin-top: -4vw !important; }
 
 .nav-bar a {
   padding: 0  25px 0 0;
@@ -63,9 +74,12 @@ li {
   display: inline;
   color: #98accd; }
 
+.pale {
+  color: #8cbff2; }
+
 hr {
-  border: 1px solid #c8c8ff !important;
-  max-width: 80%; }
+  border-top: 1px solid #8cbff2 !important;
+  width: 80% !important; }
 
 .narrow {
   margin-left: 8vw !important;
@@ -80,7 +94,7 @@ hr {
   padding-right: 15px !important; }
 
 .img-small-square {
-  min-height: 250px !important; }
+  box-shadow: 3px 3px 10px 2px #666; }
 
 a {
   font-family: "Montserrat", sans-serif !important;

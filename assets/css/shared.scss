@@ -16,6 +16,15 @@ $light-gray: rgb(200,200,255);
 }
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
+  .logo-name {
+    font-size: 12vw !important;
+  } 
+  .logo-first-line {
+    margin-left: 0vw !important;
+  }
+  .logo-second-line {
+    margin-left: 25vw !important;
+  }
 	.logo-small-text {
 		margin: -40px 0 0 -6vw;
 	}
@@ -23,10 +32,25 @@ $light-gray: rgb(200,200,255);
 		margin-top: 0;
 	}
 }
+// Medium screen size and up
 @media (min-width: 768px) { 
+	.logo-name {
+		font-size: 96px;
+		font-size: 7.6vw;//96px;
+	}
+	.logo-first-line {
+		margin-left: -3vw !important;
+	}
+	.logo-second-line {
+		margin-left: 28vw !important;
+		margin-top: -4vw !important;
+	}
 	ul.nav-bar {
 		margin-top: 9vw;
 	}
+}
+.bordered {
+	border: 1px solid black;
 }
 html {
   font-size: 100%;
@@ -38,13 +62,9 @@ body {
 }
 .logo-name {
 	font-family: "Great Vibes", serif;
-	font-size: 96px;
-	font-size: 7.6vw;//96px;
 	color: $light-blue;
 }
-.logo-first-line {
-	margin-left: -3vw !important;
-}
+
 .logo-small-text {
 	font-family: "Marta";
 	margin: -40px 0 0 4vw;
@@ -53,24 +73,16 @@ body {
 	color: $dark-blue;
 	// color: $light-gray;
 }
-.pale {
-	color: $light-blue;
-}
 .wide {
 	letter-spacing: 2px;
 }
-.logo-second-line {
-	margin-left: 28vw !important;
-	margin-top: -4vw !important;
-}
+
 .nav-bar a {
   padding: 0  25px 0 0;
   color: $dark-blue;
 }
 ul.nav-bar {
 	list-style-type: none;
-	// margin-top: 8vw;
-	 // margin-right: 60px;
 }
 li {
 	font-family: "Montserrat";
@@ -78,9 +90,12 @@ li {
 	display: inline;
 	color: $blue-grayish;
 }
+.pale {
+	color: $light-blue;
+}
 hr {
-	border: 1px solid $light-gray !important;
-	max-width: 80%;
+	border-top: 1px solid $light-blue !important;
+	width: 80% !important;
 }
 .narrow {
 	margin-left: 8vw !important;
@@ -95,20 +110,14 @@ hr {
 	padding-right: 15px !important;
 }
 .img-small-square {
-	min-height: 250px !important;
+	box-shadow: 3px 3px 10px 2px #666;
 
 }
 a {
   font-family: "Montserrat", sans-serif !important;
   font-size: 12px !important;
   transition: color .4s; }
-// a:link {
-//   color: #3d2405; 
-//   font-weight: bold;
-//   text-shadow: 0 0 1px #7cbeff;
-// }
 a:hover {
-	// font-size: 12px !important;
 	color: $light-blue !important;
   text-decoration: none !important;
 }

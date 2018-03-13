@@ -16,16 +16,18 @@
 <div class="container-fluid">
 	<div class="row">	<!-- row1 and logo div -->
 		<div class="col-xs-12 col-sm-12 col-md-6 text-center">
-			<h1 class="logo-first-line logo-name"><?=$logo_line_1;?></h1><br>
-			<p class="logo-small-text">WEB DEVELOPER</p>
+			<h1 class="logo-first-line logo-name"><?=$logo_line_1;?></h1>
+			<?php if(!empty($logo_middle_line)) {
+				echo '<br><p class="logo-small-text">' . $logo_middle_line . '</p>';
+			} ?>
 			<h1 class="logo-second-line logo-name"><?=$logo_line_2;?></h1>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6">
 			<ul class="nav-bar text-center">
+				<li><a href="<?=base_url();?>">HOME</a></li>
 				<li><a href="shapes">WORK</a></li>
 				<li><a href="author">ABOUT</a></li>
-				<li><a href="<?=base_url();?>contact">CONTACT</a></li>
-				<li><a href="<?=base_url();?>">HOME</a></li>
+				<li><a href="contact">CONTACT</a></li>
 			</ul>
 		</div>
 	</div>

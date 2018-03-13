@@ -1,3 +1,4 @@
+		<div class="row"><hr></div>
 			<div class="col col-md-6 col-md-offset-3">
 				<p><span class="great_letter">I</span>n dark ages when knights..wait ups..I mean..<br>
 				Oh right! It was meants to be about me!</p><br>
