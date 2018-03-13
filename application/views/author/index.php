@@ -7,8 +7,10 @@
 				Passionate about programming and computers in general. <br>I do love that every day is different and there is occasion to learn something new. Thriving on challenges and natural problem solver.</p>
 			</div>
 		
-		
 	</div><!--end of row-->
 </div><!--end of container-->
-
 <br><br><br>
+
+<script>
+	// document.querySelector('body').style.backgroundImage = 'url("../assets/imgs/background-round2.png")';
+</script>
