@@ -3,14 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title><?=$title;?></title>
-	<link rel="stylesheet" href="<?=assets_url();?>css/_inputrange.css">
 	<link rel="stylesheet" href="<?=assets_url();?>css/_tabs.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?=assets_url();?>css/generator.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
-	<script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<link rel="stylesheet" href="<?=assets_url();?>css/_inputrange.css">
 </head>
 
 <body ng-app="generatorApp" ng-controller="drawCtrl as draw">

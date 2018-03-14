@@ -96,15 +96,10 @@ legend:first-child {
   font-family: 'Oswald', sans-serif;
   text-shadow: 1px 1px 2px #808080; }
 
-button#drawn, #redrawn, #reset {
-  margin-left: 30px;
-  padding: 3px 5px; }
-
 .button {
-  padding: 3px 5px;
   background-color: transparent;
   font-family: 'Lora', serif;
-  border: none;
+  border: none !important;
   font-weight: bold;
   color: #3d2405;
   font-size: 16px;
@@ -124,8 +119,13 @@ button#drawn, #redrawn, #reset {
   right: 0;
   top: 540px; }
 
-input[type="number"] {
-  width: 50px; }
+input[type="range"] {
+  width: 70px; }
+
+input[type="color"] {
+  width: 40px;
+  height: 40px;
+  padding: 0; }
 
 .cnv {
   position: absolute;
@@ -151,5 +151,9 @@ input[type="number"] {
 
 #cnvImage {
   display: none; }
+
+.form-col {
+  margin-left: 20px !important;
+  margin-right: 20px !important; }
 
 /*# sourceMappingURL=generator.css.map */

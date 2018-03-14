@@ -144,15 +144,15 @@ legend:first-child {
 
  
  button#drawn, #redrawn, #reset {
-  margin-left: 30px;
-  padding: 3px 5px;
+  // margin-left: 30px;
+  // padding: 3px 5px;
 }
 
 .button {
-  padding: 3px 5px;
+  // padding: 3px 5px !important:;
   background-color: transparent;
   font-family: 'Lora', serif;
-  border: none;
+  border: none !important;
   font-weight: bold;
   color: #3d2405;
   font-size: 16px;
@@ -173,9 +173,14 @@ legend:first-child {
   right: 0;
   top: 540px; }
 
-input[type="number"] {
-  width: 50px;
-   }
+input[type="range"] {
+  width: 70px;
+}
+input[type="color"] {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
 .cnv {
   position: absolute;
   top: 300px;
@@ -199,15 +204,20 @@ input[type="number"] {
 }
 
 #cnvCircles {
-  
   z-index: 2; }
+
 #cnvSquares {
   
 }
-#cnvHexagons {
-  
+#cnvHexagons {  
   z-index: 1; 
   background-color: white; }
 
 #cnvImage {
   display: none; }
+
+.form-col {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+  // border: 1px solid red;
+}
