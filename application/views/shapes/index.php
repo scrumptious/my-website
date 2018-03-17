@@ -33,17 +33,17 @@
 		<div class="row">
 			<!-- <div class="col"></div> -->
 			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"></div>
-			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="linesNumber" id="linesNumber" min="0" max="10" ng-model="draw.linesNumber">{{draw.linesNumber}}</div>
-			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="trianglesNumber" id="trianglesNumber" min="0" max="10" ng-model="draw.trianglesNumber">{{draw.trianglesNumber}}</div>
-			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="circlesNumber" id="circlesNumber" min="0" max="10" ng-model="draw.circlesNumber">{{draw.circlesNumber}}</div>
-			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="hexagonsNumber" id="hexagonsNumber" min="0" max="10" ng-model="draw.hexagonsNumber">{{draw.hexagonsNumber}}</div>
+			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="linesNumber" id="linesNumber" min="0" max="10" ng-model="draw.linesNumber"><p class="in-the-middle">{{draw.linesNumber}}</p></div>
+			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="trianglesNumber" id="trianglesNumber" min="0" max="10" ng-model="draw.trianglesNumber"><p class="in-the-middle">{{draw.trianglesNumber}}</p></div>
+			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="circlesNumber" id="circlesNumber" min="0" max="10" ng-model="draw.circlesNumber"><p class="in-the-middle">{{draw.circlesNumber}}</p></div>
+			<div class="col-xs-1 col-sm-1 col-md-1 form-col bordered"><input type="range" name="hexagonsNumber" id="hexagonsNumber" min="0" max="10" ng-model="draw.hexagonsNumber"><p class="in-the-middle">{{draw.hexagonsNumber}}</p></div>
 		</div><br>
 		<div class="row">
 			<div class="col-sm-1 col-xs-1 col-md-1 form-col">lines width:</div>
-			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="100" type="range" name="linesWidth" id="linesWidth" ng-model="draw.linesWidth">{{draw.linesWidth}}</div>
-			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="100" type="range" name="trianglesWidth" id="trianglesWidth" ng-model="draw.trianglesWidth">{{draw.trianglesWidth}}</div>
-			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="100" type="range" name="circlesWidth" id="circlesWidth" ng-model="draw.circlesWidth">{{draw.circlesWidth}}</div>
-			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="100" type="range" name="hexagonsWidth" id="hexagonsWidth" ng-model="draw.hexagonsWidth">{{draw.hexagonsWidth}}</div>
+			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="30" type="range" name="linesWidth" id="linesWidth" ng-model="draw.linesWidth"><p class="in-the-middle">{{draw.linesWidth}}</p></div>
+			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="30" type="range" name="trianglesWidth" id="trianglesWidth" ng-model="draw.trianglesWidth"><p class="in-the-middle">{{draw.trianglesWidth}}</p></div>
+			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="30" type="range" name="circlesWidth" id="circlesWidth" ng-model="draw.circlesWidth"><p class="in-the-middle">{{draw.circlesWidth}}</p></div>
+			<div class="col-sm-1 col-xs-1 col-md-1 form-col"><input min="0" step="1" max="30" type="range" name="hexagonsWidth" id="hexagonsWidth" ng-model="draw.hexagonsWidth"><p class="in-the-middle">{{draw.hexagonsWidth}}</p></p></div>
 
 			<!-- <div class="col-md-1"></div> -->
 		</div><br>
@@ -55,20 +55,21 @@
 			<div class="col-md-1 col-sm-1 col-xs-1 form-col"><input type="color" name="hexagons_color" id="hexagons_color" ng-model="draw.hexagons_color"></div>
 		</div>
 		<div class="row">
-			<div class="col-md-1 col-sm-1 col-xs-1 form-col"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="draw" id="redrawLines" ng-click="draw.redrawLines()" class="btn btn-primary"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="draw" id="redrawTriangles" ng-click="draw.redrawTriangles()" class="btn btn-primary"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="draw" id="redrawCircles" ng-click="draw.redrawCircles()" class="btn btn-primary"></div>
-			<div class="col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="draw" id="redrawHexagons" ng-click="draw.redrawHexagons()" class="btn btn-primary"></div>
-		</div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 form-col"></div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="Draw" id="redrawLines" ng-click="draw.redrawLines()" class="button"></div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="Draw" id="redrawTriangles" ng-click="draw.redrawTriangles()" class="button"></div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="Draw" id="redrawCircles" ng-click="draw.redrawCircles()" class="button"></div>
+			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 form-col"><input type="button" value="Draw" id="redrawHexagons" ng-click="draw.redrawHexagons()" class="button"></div>
+		</div><br>
+		<div class="row"><hr></div>
 		<div class="row">
-			<div class="col-md-2 form-col"><button type="submit" value="drawn" id="drawn" ng-click="draw.drawCanvas()" class="button">Draw</button></div>
-			<div class="col-md-2 form-col"><button type="submit" value="redrawn" id="redrawn" ng-click="draw.redraw()" class="btn btn-primary">Redraw all</button></div>
-			<div class="col-md-2 form-col"><button type="submit" value="reset" id="reset" ng-click="draw.clearCanvas()" class="btn btn-primary">Reset</button></div>
-		</div>
+			<div class="col-md-2 col-lg-2 form-col"><button type="submit" value="drawn" id="drawn" ng-click="draw.drawCanvas()" class="button">Draw</button></div>
+			<div class="col-md-2 col-lg-2 form-col"><button type="submit" value="redrawn" id="redrawn" ng-click="draw.redraw()" class="button">Redraw&nbsp;all</button></div>
+			<div class="col-md-2 col-lg-2 form-col"><button type="submit" value="reset" id="reset" ng-click="draw.clearCanvas()" class="button">Reset</button></div>
+		</div><br>
 		<div class="row">
-			<div class="col-md-6 text-center">
-				<a href="" id="save" ng-click="draw.saveImage()">Save Image</a>
+			<div class="col-md-12 col-lg-12 text-center">
+				<a href="" id="save" ng-click="draw.saveImage()" class="big-link">Save Image</a>
 			</div>
 		</div>
 

@@ -5,23 +5,23 @@
   [type='range']:focus {
     outline: 0; }
     [type='range']:focus::-webkit-slider-runnable-track {
-      background: #71c6ff; }
+      background: #a8dba9; }
     [type='range']:focus::-ms-fill-lower {
-      background: #57bcff; }
+      background: #96d497; }
     [type='range']:focus::-ms-fill-upper {
-      background: #71c6ff; }
+      background: #a8dba9; }
   [type='range']::-webkit-slider-runnable-track {
     cursor: pointer;
     height: 5px;
     transition: all .2s ease;
     width: 100%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
-    background: #57bcff;
+    background: #96d497;
     border: 2px solid #e8f6ff;
     border-radius: 5px; }
   [type='range']::-webkit-slider-thumb {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
-    background: #0061ab;
+    background: #4d9d6b;
     border: 2px solid #eceff1;
     border-radius: 10px;
     cursor: pointer;
@@ -35,12 +35,12 @@
     transition: all .2s ease;
     width: 100%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
-    background: #57bcff;
+    background: #96d497;
     border: 2px solid #e8f6ff;
     border-radius: 5px; }
   [type='range']::-moz-range-thumb {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
-    background: #0061ab;
+    background: #4d9d6b;
     border: 2px solid #eceff1;
     border-radius: 10px;
     cursor: pointer;
@@ -57,17 +57,17 @@
     color: transparent; }
   [type='range']::-ms-fill-lower {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
-    background: #3eb2ff;
+    background: #84cd85;
     border: 2px solid #e8f6ff;
     border-radius: 10px; }
   [type='range']::-ms-fill-upper {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
-    background: #57bcff;
+    background: #96d497;
     border: 2px solid #e8f6ff;
     border-radius: 10px; }
   [type='range']::-ms-thumb {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2), 0 0 4px rgba(13, 13, 13, 0.2);
-    background: #0061ab;
+    background: #4d9d6b;
     border: 2px solid #eceff1;
     border-radius: 10px;
     cursor: pointer;
