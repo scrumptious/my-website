@@ -6,7 +6,7 @@
   src: url("../fonts/marta.regular.woff") format("woff"); }
 @font-face {
   font-family: 'Montserrat';
-  src: url("../fonts/Montserrat-SemiBold.ttf") format("woff"); }
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff"); }
 @media (max-width: 767.98px) {
   .logo-name {
     font-size: 12vw !important; }
@@ -49,7 +49,8 @@
   border: 1px solid black !important; }
 
 html {
-  font-size: 100%; }
+  font-size: 100%;
+  position: relative; }
 
 body {
   margin-top: 30px !important;
@@ -174,5 +175,22 @@ input[type="color"] {
   padding-right: -20px !important;
   margin-right: -20px !important;
   margin-left: -10px  !important; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  min-width: 490px !important;
+  width: 100%;
+  height: 180px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: black; }
+
+footer p {
+  color: white;
+  font-size: 14px;
+  padding: 10px 0 0 30px; }
 
 /*# sourceMappingURL=generator.css.map */

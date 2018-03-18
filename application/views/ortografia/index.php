@@ -22,7 +22,10 @@
 	<div class="row"><hr></div>
 	<div class="row">
 		<div class="on-the-right">
-			<p>Game is all about choosing the right spelling of the current word!</p>
+			<p class="mt-1 text-justify">Simple 2d game for children to practice orthography in Polish. All you need to do is to click the right spelling of the word. For good answer you’re being rewarded with 200 points, but beware!
+			Wrong answer means you will lose 80 points!<br>
+			To make it just slightly harder for each question you have 8 seconds.<br>
+			After finished level you’ll see short statistics how it went.</p>
 		</div>
 	</div>
 	

@@ -1,0 +1,17 @@
+projects descriptions
+
+color picker 
+--------------
+
+Color picker is a useful tool that will help you to find a perfect colors set. Whether you're a designer, developer or just making a birthday card for your beloved. This user friendly app will show you a preview of both background and paragraph color and help you with hex code (that strange looking code starting with '#').
+R, G, B values means respectively Red, Green and Blue color components. 
+
+shapes generator
+------------------
+
+
+
+"Ortografia" game
+------------------
+
+Simple 2d game for children to practice pronounciation in Polish. 

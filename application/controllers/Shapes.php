@@ -9,7 +9,7 @@ class Shapes extends CI_Controller {
 		$data['logo_line_2'] = "Generator";
 		$this->load->view('templates/generator_header', $data);
 		$this->load->view('shapes/index');
-		$this->load->view('templates/mywebsite_footer');
+		// $this->load->view('templates/mywebsite_footer');
 	}
 
 }
