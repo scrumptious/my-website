@@ -13,10 +13,12 @@
 	<div class="row">	<!-- row1 and logo div -->
 		<div class="col-xs-12 col-sm-12 col-md-6 text-center">
 			<h1 class="logo-first-line logo-name"><?=$logo_line_1;?></h1>
+
 			<?php if(!empty($logo_middle_line)) {
 				echo '<br><p class="logo-small-text">' . $logo_middle_line . '</p>';
 			} ?>
-			<h1 class="logo-second-line logo-name"><?=$logo_line_2;?></h1>
+			<!-- <h1 class="logo-second-line logo-name"><?=$logo_line_2;?></h1> -->
+			
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-6">
 			<ul class="nav-bar text-center">
@@ -39,14 +41,16 @@
 		<label for="light">light</label><input type="radio" name="darkness" value="light">
 		<label for="dark">dark</label><input type="radio" name="darkness" value="dark">
 	</div>
+	<div class="colorInfo">
+		<div class="colorSquare"></div>
+		<form action="">
+			<label for="red">R :</label><input type="text" name="red" disabled><br>
+			<label for="green">G :</label><input type="text" name="green" disabled><br>
+			<label for="blue">B :</label><input type="text" name="blue" disabled><br>
+			<label for="hex"># </label><input type="text" name="hex">
+		</form>
+	</div>
 	<canvas id="canvas" width="640px" height="320px">Your browser does not support Canvas!</canvas>
-	<form action="">
-		<label for="red">R :</label><input type="text" name="red" disabled>
-		<label for="green">G :</label><input type="text" name="green" disabled>
-		<label for="blue">B :</label><input type="text" name="blue" disabled>
-		<label for="hex"># </label><input type="text" name="hex">
-	</form>
-	<div class="colorSquare"></div>
 	<div class="colorDiv">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam repudiandae numquam earum error aut deleniti iusto tempore delectus ad praesentium illum laudantium dolorem reprehenderit, nisi expedita vero facilis dolor sint accusamus. Dolorum reiciendis maiores vel, rem labore nulla incidunt, repudiandae, sapiente quas optio assumenda, consequuntur accusamus unde dignissimos. Dignissimos, temporibus?</p>
 	</div>

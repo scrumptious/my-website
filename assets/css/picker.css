@@ -28,7 +28,7 @@ body {
   margin-top: 30px !important; }
 
 .logo-second-line {
-  margin-left: 24vw !important;
+  margin-left: 18vw !important;
   margin-top: -4vw !important; }
 
 ul.nav-bar {
@@ -69,8 +69,8 @@ hr {
   width: 80% !important; }
 
 #canvas {
-  margin-left: 200px;
-  margin-top: 100px;
+  margin-left: 10vw;
+  margin-top: 40px;
   width: 640px;
   height: 320px; }
 
@@ -84,80 +84,38 @@ input[type="radio"], label {
   padding: 0 !important;
   margin: 0 !important; }
 
-label[for="normal"] {
-  left: 224px;
-  top: 300px; }
-
-label[for="light"] {
-  left: 304px;
-  top: 300px; }
-
-label[for="dark"] {
-  left: 374px;
-  top: 300px; }
-
 input[type="radio"]:nth-of-type(1) {
-  position: absolute;
-  left: 200px;
-  top: 300px; }
+  position: relative;
+  left: 50px; }
 
 input[type="radio"]:nth-of-type(2) {
-  position: absolute;
-  left: 260px;
-  top: 300px; }
+  position: relative;
+  left: 120px; }
 
 input[type="radio"]:nth-of-type(3) {
-  position: absolute;
-  left: 310px;
-  top: 300px; }
+  position: relative;
+  left: 190px; }
+
+label[for="normal"] {
+  position: relative;
+  left: 120px; }
+
+label[for="light"] {
+  position: relative;
+  left: 170px; }
+
+label[for="dark"] {
+  position: relative;
+  left: 240px; }
 
 input[type="text"] {
-  position: absolute;
-  width: 40px;
-  top: 300px; }
-
-label {
-  position: absolute; }
-
-label[for="red"] {
-  top: 460px;
-  left: 860px; }
-
-input[name="red"] {
-  top: 460px;
-  left: 890px; }
-
-label[for="green"] {
-  top: 490px;
-  left: 860px; }
-
-input[name="green"] {
-  top: 490px;
-  left: 890px; }
-
-label[for="blue"] {
-  top: 520px;
-  left: 860px; }
-
-input[name="blue"] {
-  top: 520px;
-  left: 890px; }
-
-label[for="alpha"] {
-  top: 550px;
-  left: 860px; }
-
-input[name="alpha"] {
-  top: 550px;
-  left: 890px; }
+  width: 65px; }
 
 label[for="hex"] {
-  top: 580px;
-  left: 875px; }
+  margin-left: 19px; }
 
 input[name="hex"] {
-  top: 580px;
-  left: 890px; }
+  margin-left: 19px; }
 
 .colorDiv p {
   font-size: 20px;
@@ -169,13 +127,20 @@ input[name="hex"] {
   text-align: justify; }
 
 .colorSquare {
-  position: relative;
-  float: right;
-  top: -250px;
-  right: 300px;
   width: 100px;
   height: 100px;
   border-radius: 10px;
   border: 1px dashed black; }
+
+.colorInfo {
+  position: relative;
+  margin-left: 50vw;
+  top: 10vw; }
+
+form {
+  position: relative;
+  margin-left: 120px;
+  margin-top: -100px;
+  font-family: Monospace; }
 
 /*# sourceMappingURL=picker.css.map */

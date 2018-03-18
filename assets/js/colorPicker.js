@@ -4,7 +4,7 @@ const picker = {
 	canvas: document.getElementById('canvas'),
 	ctx: this.canvas.getContext('2d'),
 	offsetX: 208,
-	offsetY: 247,
+	offsetY: 359,
 	radios: document.querySelectorAll('input[type="radio"]'),
 	darkness: 0,
 	selected: false
@@ -30,6 +30,25 @@ function update(progress) {
 function draw() {
 
 }
+function relMouseCoords(event){
+    var totalOffsetX = 0;
+    var totalOffsetY = 0;
+    var canvasX = 0;
+    var canvasY = 0;
+    var currentElement = this;
+
+    do{
+        totalOffsetX += currentElement.offsetLeft - currentElement.scrollLeft;
+        totalOffsetY += currentElement.offsetTop - currentElement.scrollTop;
+    }
+    while(currentElement = currentElement.offsetParent)
+
+    canvasX = event.pageX - totalOffsetX;
+    canvasY = event.pageY - totalOffsetY;
+
+    return {x:canvasX, y:canvasY}
+}
+HTMLCanvasElement.prototype.relMouseCoords = relMouseCoords;
 function drawColorSquares() {
 	for(let i=0; i<7; i++) {
 		for(let j=0; j<6; j++) {	
@@ -159,14 +178,14 @@ function rgbToHex(r, g, b) {
 }
 function applyChosenColor(color) {
 	let form, r, g, b, a, h, textDiv, squareDiv;
-	function jumpTwoSiblings(element) {
-		return element.nextElementSibling.nextElementSibling;
+	function jumpThreeSiblings(element) {
+		return element.nextElementSibling.nextElementSibling.nextElementSibling;
 	}
 	form = document.querySelector('form');
 	r = form.firstElementChild.nextElementSibling;
-	g = jumpTwoSiblings(r);
-	b = jumpTwoSiblings(g);
-	h = (jumpTwoSiblings(b));
+	g = jumpThreeSiblings(r);
+	b = jumpThreeSiblings(g);
+	h = (jumpThreeSiblings(b));
 	textDiv = document.querySelector('.colorDiv');
 	squareDiv = document.querySelector('.colorSquare');
 	r.value = color[0];
@@ -203,8 +222,9 @@ function selectSquare(x, y) {
 		generalInfo.lastClickY = y;
 }
 function canvasClick(e) {
-	var mouseX = e.pageX - picker.offsetX;
-	var mouseY = e.pageY - picker.offsetY;
+	let coords = e.target.relMouseCoords(e);
+	var mouseX = coords.x; //pageX - picker.offsetX;
+	var mouseY = coords.y; //pageY - picker.offsetY;
 	let color = getColorsFromData(mouseX, mouseY);
 	let hexColor = rgbToHex(color[0], color[1], color[2]);
 	if(hexColor!='000000') {
@@ -228,6 +248,8 @@ document.addEventListener("DOMContentLoaded", function() {
 		radiosChange();
 		canvasClick(e);
 	});
-
+	window.addEventListener('click', function(e) {
+		console.log('x: ' + e.pageX + ', y: ' + e.pageY);
+	});
 
 });

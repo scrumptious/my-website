@@ -5,8 +5,8 @@ class ColorPicker extends CI_Controller {
 
 	public function index()	{
 		$data['title'] = "Color picker";
-		$data['logo_line_1'] = "Choose a";
-		$data['logo_line_2'] = "color";
+		$data['logo_line_1'] = "Color picker";
+		// $data['logo_line_2'] = "picker";
 		// $this->load->view('templates/mywebsite_footer', $data);
 		$this->load->view('colorPicker/index', $data);
 		// $this->load->view('templates/mywebsite_footer');
