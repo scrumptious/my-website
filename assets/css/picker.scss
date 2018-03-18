@@ -71,10 +71,9 @@ hr {
 
 #canvas {
     margin-left: 10vw;
-    margin-top: 40px;
+    margin-top: -60px;
     width: 640px;
     height: 320px;
-    // border: 1px solid black;
 }
 h1 {
     font-family: Roboto;
@@ -176,6 +175,7 @@ input[name="hex"] {
     position: relative;
     margin-left: 50vw;
     top: 10vw;
+    // margin-bottom: -100px;
 }
 form {
     position: relative;
