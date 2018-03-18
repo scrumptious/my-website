@@ -9,7 +9,7 @@
 		</picture> 
 		</a>
 	</div>
-	<div class="col-12 col-sm-6 col-md-4 text-justify">
+	<div class="col-12 col-sm-6 offset-sm-1 col-md-4 offset-md-1 text-justify">
 		<p>
 			Colour picker is a useful tool that will help you to find a perfect colours set. Whether you're a designer, developer or just making a birthday card for your beloved. This user friendly app will show you a preview of both background and paragraph colour and help you with hex code (that strange looking code starting with '#').<br>
 			R, G, B values means respectively Red, Green and Blue colour components. <br>
@@ -26,7 +26,7 @@
 			</picture> 
 			</a>
 	</div>
-		<div class="col-12 col-sm-6 col-md-4 text-justify">
+		<div class="col-12 col-sm-6 offset-sm-1 col-md-4 offset-md-1 text-justify">
 			<p>
 				Simple 2d game for children to practice orthography in Polish. All you need to do is to click the right spelling of the word. For good answer you’re being rewarded with 200 points, but beware! Wrong answer means you will lose 80 points! <br>
 				To make it just slightly harder for each question you have 8 seconds.
@@ -44,7 +44,7 @@
 			</picture> 
 			</a>
 	</div>
-	<div class="col-12 col-sm-6 col-md-4">
+	<div class="col-12 col-sm-6 offset-sm-1 col-md-4 offset-md-1 text-justify">
 		<p>
 			Shapes generator is a canvas powered app to draw geometric figures. They have random size and positions on a drawing area. You can set amount of particular figures and stroke width together with a colour. <br>
 			It’s possible to redraw each of the shapes individually or all of them at the same time. <br>
