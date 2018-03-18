@@ -9,7 +9,7 @@ class Author extends CI_Controller {
 		$data['logo_line_2'] = "me";
 		$this->load->view('templates/mywebsite_header', $data);
 		$this->load->view('author/index');
-		$this->load->view('templates/mywebsite_footer');
+		// $this->load->view('templates/mywebsite_footer');
 	}
 
 }

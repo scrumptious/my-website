@@ -239,5 +239,15 @@ input[type=range] {
 
 input:focus, textarea:focus {
 	background-color: #e6eff7;
-	border-color: blue;
+	border: 2px solid;
+	border-color: #5fd1ff;
+}
+.btn-primary {
+	background-color: #3e4981 !important;
+	border-color: #1e49b9 !important;
+	border-radius: 10px !important;
+	transition: all .4s;
+}
+.btn-primary:hover {
+	background-color: #234cff !important;
 }

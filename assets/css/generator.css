@@ -21,10 +21,10 @@
     margin-top: 0; }
 
   .form {
-    top: 520px; } }
-@media (max-width: 1279px) {
-  .form {
-    top: 560px; } }
+    top: 520px; }
+
+  .form-col {
+    width: 15% !important; } }
 @media (min-width: 768px) {
   .logo-name {
     font-size: 96px;
@@ -45,6 +45,9 @@
 @media (min-width: 1280px) {
   .form {
     left: 720px; } }
+.bordered {
+  border: 1px solid black !important; }
+
 html {
   font-size: 100%; }
 
@@ -52,9 +55,6 @@ body {
   margin-top: 30px !important;
   background-image: url("../imgs/background-hex2.jpg");
   background-repeat: repeat; }
-
-.in-the-middle {
-  padding-left: 120%; }
 
 .logo-name {
   font-family: "Great Vibes", serif;
@@ -83,7 +83,6 @@ a {
 
 .big-link {
   font-size: 14px !important;
-  font-size: 1.2vw !important;
   border-bottom: 2px solid #4d9d6b;
   border-radius: 4px;
   padding: 0 4px 0 4px !important; }
@@ -108,7 +107,6 @@ legend:first-child {
   border-bottom: none !important;
   color: #3d2405;
   font-size: 14px;
-  font-size: 1vw;
   transition: border-color .3s, background-color .6s;
   border-left: 1px solid #4d9d6b;
   border-right: 2px solid #4d9d6b;
@@ -165,7 +163,16 @@ input[type="color"] {
   display: none; }
 
 .form-col {
-  margin-left: 20px !important;
-  margin-right: 20px !important; }
+  margin-left: 10px !important;
+  margin-right: 10px !important; }
+
+.col-md-1, .col-sm-1, .col-1 {
+  padding-right: 4px !important;
+  padding-left: 4px !important; }
+
+.col-xl-6 {
+  padding-right: -20px !important;
+  margin-right: -20px !important;
+  margin-left: -10px  !important; }
 
 /*# sourceMappingURL=generator.css.map */
