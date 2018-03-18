@@ -62,6 +62,8 @@ $route['heroes/(:any)'] = 'heroes/index/$1';
 $route['heroes/view/(:any)'] = 'heroes/index/$1';
 
 $route['shapes'] = 'shapes';
+$route['ortografia'] = 'ortografia';
+$route['colorPicker'] = 'colorPicker';
 $route['contact'] = 'contact';
 $route['contact/sent'] = 'contact/sent';
 $route['author'] = 'author';
