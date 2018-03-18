@@ -1,20 +1,6 @@
-$light-blue: rgb(140,191,242);
-$blue-grayish: rgb(152,172,205);
-$dark-blue: rgb(77,107,157);
-$light-gray: rgb(200,200,255);
-@font-face { 
-	font-family: 'Great Vibes';
-	src: url('../fonts/GreatVibes-Regular.woff') format('woff');
-}
-@font-face {
-	font-family: 'Marta';
-	src: url('../fonts/marta.regular.woff') format('woff');
-}
-@font-face {
-	font-family: 'Montserrat';
-	src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
-}
+@import "variables";
 // Small devices (landscape phones, less than 768px)
+//fonts
 @media (max-width: 767.98px) { 
   .logo-name {
     font-size: 12vw !important;
@@ -50,7 +36,7 @@ $light-gray: rgb(200,200,255);
 	}
 }
 .bordered {
-	border: 1px solid black;
+	// border: 1px solid black;
 }
 html {
   font-size: 100%;
@@ -59,6 +45,11 @@ body {
 	margin-top: 30px !important;
 	background-image: url("../imgs/background.jpg");
 	background-repeat: repeat;
+}
+img:hover {
+  opacity: 0.7;
+  box-shadow: 8px 8px 20px 8px #666;
+
 }
 .logo-name {
 	font-family: "Great Vibes", serif;
@@ -111,6 +102,7 @@ hr {
 }
 .img-small-square {
 	box-shadow: 3px 3px 10px 2px #666;
+	transition: box-shadow .5s;
 
 }
 a {

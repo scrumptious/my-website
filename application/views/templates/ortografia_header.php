@@ -4,12 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title><?=$title;?></title>
+	<link rel="preload" href="fonts/BioRhyme-Regular.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="fonts/BioRhyme-Bold.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" hred="<?=assets_url();?>imgs/cloud2.png" hidden="hidden" as="image">
+	<link href='http://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
 	<link rel="stylesheet" href="<?=assets_url();?>css/_tabs.css">
 	<link rel="stylesheet" href="<?=assets_url();?>css/shared.css">
+	<link rel="stylesheet" href="<?=assets_url();?>css/game.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
