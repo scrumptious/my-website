@@ -36,9 +36,6 @@
 
   ul.nav-bar {
     margin-top: 9vw; } }
-.bordered {
-  border: 1px solid black; }
-
 html {
   font-size: 100%; }
 
@@ -46,6 +43,10 @@ body {
   margin-top: 30px !important;
   background-image: url("../imgs/background.jpg");
   background-repeat: repeat; }
+
+img:hover {
+  opacity: 0.7;
+  box-shadow: 8px 8px 20px 8px #666; }
 
 .logo-name {
   font-family: "Great Vibes", serif;
@@ -94,7 +95,8 @@ hr {
   padding-right: 15px !important; }
 
 .img-small-square {
-  box-shadow: 3px 3px 10px 2px #666; }
+  box-shadow: 3px 3px 10px 2px #666;
+  transition: box-shadow .5s; }
 
 a {
   font-family: "Montserrat", sans-serif !important;

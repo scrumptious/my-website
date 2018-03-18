@@ -1,3 +1,16 @@
+@font-face { 
+	font-family: 'Great Vibes';
+	src: url('../fonts/GreatVibes-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Marta';
+	src: url('../fonts/marta.regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
+}
+//colors
 $light-blue: rgb(140,191,242);
 $blue-grayish: rgb(152,172,205);
 $dark-blue: rgb(77,107,157);
@@ -8,6 +21,8 @@ $light-green: rgb(150,212,151);
 $green-grayish: rgb(152,205,172);
 $dark-green: rgb(77,157,107);
 
+
+//input range controls
 $track-color: $light-green !default;
 $thumb-color: $dark-green !default;
 
@@ -33,3 +48,7 @@ $track-border-color: #e8f6ff !default;
 
 $track-radius: 5px !default;
 $contrast:  5% !default;
+
+
+//color picker variables
+$pickerTopMargin: 300px;

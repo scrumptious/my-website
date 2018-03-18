@@ -1,3 +1,11 @@
-
+@font-face {
+  font-family: 'Great Vibes';
+  src: url("../fonts/GreatVibes-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Marta';
+  src: url("../fonts/marta.regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("woff"); }
 
 /*# sourceMappingURL=_variables.css.map */
