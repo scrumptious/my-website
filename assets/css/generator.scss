@@ -1,16 +1,15 @@
-
-@font-face { 
-  font-family: 'Great Vibes';
-  src: url('../fonts/GreatVibes-Regular.woff') format('woff');
-}
-@font-face {
-  font-family: 'Marta';
-  src: url('../fonts/marta.regular.woff') format('woff');
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
-}
+// @font-face { 
+//   font-family: 'Great Vibes';
+//   src: url('../fonts/GreatVibes-Regular.woff') format('woff');
+// }
+// @font-face {
+//   font-family: 'Marta';
+//   src: url('../fonts/marta.regular.woff') format('woff');
+// }
+// @font-face {
+//   font-family: 'Montserrat';
+//   src: url('../fonts/Montserrat-SemiBold.ttf') format('woff');
+// }
 @import "variables";
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
@@ -22,9 +21,6 @@
   }
   .logo-second-line {
     margin-left: 25vw !important;
-  }
-  .logo-small-text {
-    margin: -40px 0 0 -6vw;
   }
   ul.nav-bar {
     margin-top: 0;
@@ -97,36 +93,19 @@ ul.nav-bar {
   list-style-type: none;
 }
 .nav-bar a {
-  padding: 5px  25px 5px 0px;
-  /*border: 1px solid black;*/
+  padding: 0  25px 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 li {
   font-family: "Montserrat";
   font-size: 12px;
   display: inline;
-  padding: 10px;
   color: $green-grayish;
 }
 a {
   font-family: "Montserrat", sans-serif !important;
   font-size: 12px !important;
-  font-size: .9vw !important;
   color: $dark-green !important;
   transition: color .4s; 
 }

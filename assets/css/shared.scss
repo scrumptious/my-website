@@ -67,13 +67,12 @@ img:hover {
 .wide {
 	letter-spacing: 2px;
 }
-
+ul.nav-bar {
+	list-style-type: none;
+}
 .nav-bar a {
   padding: 0  25px 0 0;
   color: $dark-blue;
-}
-ul.nav-bar {
-	list-style-type: none;
 }
 li {
 	font-family: "Montserrat";
