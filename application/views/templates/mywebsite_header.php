@@ -6,8 +6,8 @@
 	<title><?=$title;?></title>
 	<link rel="stylesheet" href="<?=assets_url();?>css/shared.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tools/1.2.7/jquery.tools.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">  -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 

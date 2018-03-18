@@ -3,7 +3,6 @@
 			<div class="col-md-6 offset-md-4">
 				
 			<h1>Hello</h1>
-			</	div>
 			</div>
 		</div>
 		<div class="row justify-content-center">
@@ -16,8 +15,6 @@
 			</div>
 		</div><br>
 		
-	</div><!--end of row-->
-</div><!--end of container-->
 <br><br><br>
 
 <script>
