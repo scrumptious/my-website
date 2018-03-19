@@ -16,7 +16,7 @@
 		</p>
 	</div>
 </div><br>
-<div class="row narrow">
+<div class="row narrow high">
 	<div class="col-12 col-sm-6 col-md-5 offset-md-1">
 		<a href="ortografia">
 			<picture>
